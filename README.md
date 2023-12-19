@@ -5,16 +5,16 @@
 # UAV Hay Bale Field Dataset
 
 ## Description
-This dataset comprises a comprehensive collection of UAV-captured images of agricultural fields with hay bales. It includes high-resolution RGB and thermal imagery, catering to a wide range of applications from precision agriculture to machine learning in computer vision and autonomous navigation.
+This dataset comprises a comprehensive collection of UAV-captured images of agricultural fields with hay bales. It includes high-resolution RGB imagery, catering to a wide range of applications from precision agriculture to machine learning in computer vision and autonomous navigation.
 
 ## Dataset Details
-- **Images**: High-resolution RGB and thermal images
+- **Images**: High-resolution RGB images
 - **Annotations**: Semantic segmentation with polygons
 - **Formats**: Annotations available in COCO, CSV, JSON, YOLO formats
 - **Size**: ~100GB
-- **Resolution**: 640x480 (thermal), [insert RGB resolution]
+- **Resolution**: 4056x3040 (RGB) 
 - **Flight Parameters**: Various altitudes and speeds
-- **Area Covered**: [insert area details]
+- **Area Covered**: 938715 square meters (m²)
 
 ## Applications
 - Object detection and counting (hay bales)
