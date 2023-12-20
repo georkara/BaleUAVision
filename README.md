@@ -60,7 +60,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
       └── Dataset Description.csv
 
 ### Files explanation
-- [Raw Data]:afawadwa
+- Raw Data:afawadwa
 ## Usage
 The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
 
