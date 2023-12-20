@@ -60,7 +60,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
       └── Dataset Description.csv
 
 ### Files explanation
-- Raw Data: Includes all UAV-captured images in raw RGB format. Note that this folder is organized/unfolded into 16 subfolders where each one represents a flight mission (one flight mission per hay bales field). Thus, each subfolder ("Hay bales 1", "Hay bale2", ... , "Hay bales 16") contains the raw RGB images for each UAV-captured field.
+- Raw Data: Includes all UAV-captured images in raw RGB format. Note that this folder is organized/unfolded into 16 subfolders where each one represents a flight mission (one flight mission per hay bales field). Thus, each subfolder ("Hay bales 1", "Hay bale 2", ... , "Hay bales 16") contains the raw RGB images for each UAV-captured hay field.
 ## Usage
 The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
 
