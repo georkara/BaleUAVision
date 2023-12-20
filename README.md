@@ -23,44 +23,42 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - Simulation scenarios for unmanned ground vehicles and robotics
 
 ## Files
-- Chargym-Charging-Station
-
     ├── README.md
 
-    ├── setup.py
+    ├── Hay bales Dataset
+      ├── Raw Data
+          ├── Hay bales 1
+          ├── Hay bales 2
+          ...
+          └── Hay bales 16
+      ├── Annotated
+          ├── Hay bales 1
+              ├── COCO format
+              ├── CSV format
+              ├── JSON format
+              ├── YOLO format
+              └── images
+           ├── Hay bales 2
+              ├── COCO format
+              ├── CSV format
+              ├── JSON format
+              ├── YOLO format
+              └── images  
+           ...
+           └── Hay bales 16  
+              ├── COCO format
+              ├── CSV format
+              ├── JSON format
+              ├── YOLO format
+              └── images  
+      ├── Orthophotos
+          ├── Hay bales 1 orthophoto
+          ├── Hay bales 2 orthophoto
+          ...
+          └── Hay bales 16 orthophoto
+          
+      └── Dataset Description.csv
 
-    ├── Chargym_Charging_Station
-      ├── envs
-        ├── __init__.py
-        └── Charging_Station_Enviroment.py
-
-      ├── Files
-        ├── Initial_Values.mat
-        ├── Results.mat
-        └── Weather.mat
-
-      ├── images
-        ├── Chargym_interaction_system.jpg
-        ├── Comparison_Evaluation_Reward.png
-        └── indicative_tensorboard.png
-
-      ├── utils
-        ├── Energy_Calculations.py
-        ├── Init_Values.py
-        ├── Simulate_Actions3.py
-        └── Simulate_Station3.py
-
-      └── __init__.py
-
-    └── Solvers
-      ├── RBC
-        ├── RBC.py
-        └── rbc_main.py
-      ├── RL
-        ├── DDPG_train.py
-        └── PPO_train.py
-      ├── check_env.py
-      └── evaluate_trained_models.py
 
 ## Usage
 The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
