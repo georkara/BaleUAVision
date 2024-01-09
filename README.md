@@ -16,7 +16,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - **Images**: High-resolution RGB images
 - **Annotations**: Semantic segmentation with polygons
 - **Formats**: Annotations available in COCO, CSV, JSON, YOLO formats
-- **Size**: ~100GB
+- **Size**: ~43.2GB
 - **Resolution**: 4056x3040 (RGB) 
 - **Flight Parameters**: Various altitudes, speeds and overlaps
 - **Area Covered**: 938715 square meters (m²) in total
