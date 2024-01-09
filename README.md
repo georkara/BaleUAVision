@@ -68,7 +68,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
           ...
           └── Hay bales 16 orthophoto
           
-      └── Dataset Description.csv
+      └── Dataset Description.csv  # contains details and metadata for each Hay bale sub-set 
 
 ### Files explanation
 - Raw Data: Includes all UAV-captured images in raw RGB format. Note that this folder is organized/unfolded into 16 subfolders where each one represents a flight mission (one flight mission per hay bales field). Thus, each subfolder ("Hay bales 1", "Hay bale 2", ... , "Hay bales 16") contains the raw RGB images for each UAV-captured hay field.
