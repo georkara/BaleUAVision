@@ -29,13 +29,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 
 ## Files
     ├── README.md
-
     ├── Hay bales Dataset
-      ├── Raw Data
-          ├── Hay bales 1  # contains 205 .jpg images
-          ├── Hay bales 2  # contains 423 .jpg images
-          ...
-          └── Hay bales 16 # contains 119 .jpg images
       ├── Annotated
           ├── Hay bales 1
               ├── Hay-bales-1-YOLO  # folder which contains YOLO formated .txt files
@@ -67,7 +61,11 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
           ├── Hay bales 2 orthophoto
           ...
           └── Hay bales 16 orthophoto
-          
+      ├── Raw Data
+          ├── Hay bales 1  # contains 205 .jpg images
+          ├── Hay bales 2  # contains 423 .jpg images
+          ...
+          └── Hay bales 16 # contains 119 .jpg images    
       └── Dataset Description.csv  # contains details and metadata for each Hay bale sub-set 
 
 ### Files explanation
