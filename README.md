@@ -32,32 +32,38 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 
     ├── Hay bales Dataset
       ├── Raw Data
-          ├── Hay bales 1
-          ├── Hay bales 2
+          ├── Hay bales 1  # contains 205 .jpg images
+          ├── Hay bales 2  # contains 423 .jpg images
           ...
-          └── Hay bales 16
+          └── Hay bales 16 # contains 119 .jpg images
       ├── Annotated
           ├── Hay bales 1
-              ├── COCO format
-              ├── CSV format
-              ├── JSON format
-              ├── YOLO format
-              └── images
+              ├── Hay-bales-1-YOLO  # folder which contains YOLO formated txt files
+              ├── images            # folder which contains images with prefixes
+              ├── classes           # txt files which contains the name of the class 
+              ├── Hay-bales-1-COCO  # json file which is for COCO format
+              ├── Hay-bales-1-CSV   # classic csv file for CSV format
+              ├── Hay-bales-1-JSON  # json file for JSON format
+              └── notes
            ├── Hay bales 2
-              ├── COCO format
-              ├── CSV format
-              ├── JSON format
-              ├── YOLO format
-              └── images  
+              ├── Hay-bales-2-YOLO  
+              ├── images            
+              ├── classes           
+              ├── Hay-bales-2-COCO  
+              ├── Hay-bales-2-CSV  
+              ├── Hay-bales-2-JSON  
+              └── notes
            ...
            └── Hay bales 16  
-              ├── COCO format
-              ├── CSV format
-              ├── JSON format
-              ├── YOLO format
-              └── images  
+              ├── Hay-bales-16-YOLO  
+              ├── images            
+              ├── classes           
+              ├── Hay-bales-16-COCO  
+              ├── Hay-bales-16-CSV  
+              ├── Hay-bales-16-JSON  
+              └── notes
       ├── Orthophotos
-          ├── Hay bales 1 orthophoto
+          ├── Hay bales 1 orthophoto # tiff images for classic orthomosaic/panorama representation
           ├── Hay bales 2 orthophoto
           ...
           └── Hay bales 16 orthophoto
