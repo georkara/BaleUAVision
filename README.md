@@ -16,7 +16,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - **Images**: High-resolution RGB images of 16 Hay bale fields
 - **Annotations**: Semantic segmentation with polygons
 - **Orthophotos**: Orthomosaic views are given for each sub-set of this dataset as a result of image stitching process
-- **Formats**: Annotations available in COCO, CSV, JSON, YOLO formats
+- **Formats**: Annotations available in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats
 - **Size**: ~43.2GB **leipoun 2 orthophotos**
 - **Resolution**: 4056x3040 (RGB) 
 - **Flight Parameters**: Various altitudes, speeds and overlaps
@@ -35,6 +35,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
           ├── Hay bales 1
               ├── Hay-bales-1-YOLO  # folder which contains YOLO formated .txt files
               ├── images            # folder which contains images with prefixes
+              ├── Masks             # folder that contains image segmentation masks using python script segmentation_masks.py
               ├── classes           # .txt file which contains the name of the class 
               ├── Hay-bales-1-COCO  # .json file which is for COCO format
               ├── Hay-bales-1-CSV   # classic .csv file for CSV format
@@ -42,7 +43,8 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
               └── notes
            ├── Hay bales 2
               ├── Hay-bales-2-YOLO  
-              ├── images            
+              ├── images
+              ├── Masks
               ├── classes           
               ├── Hay-bales-2-COCO  
               ├── Hay-bales-2-CSV  
@@ -51,7 +53,8 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
            ...
            └── Hay bales 16  
               ├── Hay-bales-16-YOLO  
-              ├── images            
+              ├── images
+              ├── Masks
               ├── classes           
               ├── Hay-bales-16-COCO  
               ├── Hay-bales-16-CSV  
