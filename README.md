@@ -35,7 +35,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
           ├── Hay bales 1
               ├── Hay-bales-1-YOLO  # folder which contains YOLO formated .txt files
               ├── images            # folder which contains images with prefixes
-              ├── Masks             # folder that contains image segmentation masks using python script segmentation_masks.py
+              ├── Masks             # folder that contains image segmentation masks using the python script "segmentation_masks.py"
               ├── classes           # .txt file which contains the name of the class 
               ├── Hay-bales-1-COCO  # .json file which is for COCO format
               ├── Hay-bales-1-CSV   # classic .csv file for CSV format
