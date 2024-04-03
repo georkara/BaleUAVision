@@ -15,7 +15,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 ## Dataset Details
 - **Images**: High-resolution RGB images of 16 Hay bale fields
 - **Annotations**: Semantic segmentation with polygons
-- **Orthophotos**: Orthomosaic views are given for each sub-set of this dataset as a result of image stitching process
+- **Orthophotos**: Orthomosaic views are given for each sub-set of this dataset as a result of image stitching process adding a macro perspective property to the dataset
 - **Formats**: Annotations available in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats
 - **Size**: ~43.2GB **leipoun 2 orthophotos**
 - **Resolution**: 4056x3040 (RGB) 
