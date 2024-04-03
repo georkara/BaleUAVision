@@ -35,11 +35,11 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
           ├── Hay bales 1
               ├── Hay-bales-1-YOLO  # folder which contains **YOLO** formated .txt files
               ├── images            # folder which contains images with prefixes
-              ├── Masks             # folder that contains image Segmentation Masks using the python script "segmentation_masks.py"
+              ├── Masks             # folder that contains image **Segmentation Masks** using the python script "segmentation_masks.py"
               ├── classes           # .txt file which contains the name of the class 
-              ├── Hay-bales-1-COCO  # .json file which is for COCO format
-              ├── Hay-bales-1-CSV   # classic .csv file for *CSV* format
-              ├── Hay-bales-1-JSON  # .json file for JSON format
+              ├── Hay-bales-1-COCO  # .json file which is for **COCO** format
+              ├── Hay-bales-1-CSV   # classic .csv file for **CSV** format
+              ├── Hay-bales-1-JSON  # .json file for **JSON** format
               └── notes
            ├── Hay bales 2
               ├── Hay-bales-2-YOLO  
@@ -84,6 +84,9 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - Orthophotos: This folder includes standard orthomosaic mappings for each field case (each one of the 16 hay fields). This is the result of a classic image stitching process that encopasses all individual UAV-captured images for each hay field that is under flight examination to produce the unified representation/segmented panorama. Based on orthophotos we calculate manually the number of hay bales in the fields. These representations can be really usefull for potential users that aim to develop and evaluate algorithmic variants of the Traveling Salesman Problem in simulation scenarios for unmanned ground vehicles and robotics towards optimizing the picking process of hay bales either in individual fields or in a general area of fields. Note that many of the investigated fields are close to each other in the sense of a few dozen or max hundred meters.
 
 - Dataset Description.csv: Contains general information and metadata. Various attributes are included to provide with additional/supportive data such as Dataset ID, Latitude and Longitude of the flight polygon, Altitude, Takeoff Speed, Flight Speed, Side and Frontal Overlap Ratios, Ground Sampling Distance (GSD), Area of Flight Polygon, Flight Time, Number of Photos in Dataset, Orthophoto availability, and the Number of Hay bales depicted. The number of hay bales are provided for the under examination field, i.e., the area of interest + the surrounding area of vision (the number of hay bales has been counted manually from the provided orthophotos).
+
+### Visualize Annotations
+In case that you want to inspect the annotated images, we offer options through the python scripts: visualization_json.py; visualization_csv.py; visualization_coco.py; visualization_coco2.py;
   
 ## Usage
 The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
