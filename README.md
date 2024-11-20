@@ -33,15 +33,33 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | **Number of Images** | 2,599.                                                                     |
 | **Formats**          | Raw RGB images and annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats. |
 | **Annotations**      | Semantic segmentation with polygons.                                       |
-| **Captured Fields**  | Imagery from 16 fields, with 14 in the Xanthi region and 2 in the Drama region (northern Greece). |
-| **Orthophotos**      | Orthomosaic views for each subset, generated via image stitching.           |
+| **Captured Fields**  | Imagery from 16 fields, with 14 located in the Xanthi region and 2 in the Drama region, both situated in the northern part of Greece |
+| **Orthophotos**      | Orthomosaic views for each subset of the dataset, generated through an image stitching process, offering a macro-perspective of the fields          |
 | **Size**             | ~44GB.                                                                     |
 | **Resolution**       | 4056 x 3040 (RGB).                                                         |
 | **Flight Parameters**| Various altitudes, speeds, and overlaps.                                   |
 | **Total Area Covered**| 938,715 square meters (m²).                                                |
-| **Additional Info**  | The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting                      |
+| **Additional Info**  | The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting      |
 
 
+| Dataset ID   | Latitude and Longitude                | Altitude (m) | Takeoff Speed (m/s) | Speed (m/s) | Side Overlap (%) | Frontal Overlap (%) | GSD (cm/pixel) | Area (m²) | Flight Time | Photos | Orthophoto | Hay Bale Count         |
+|--------------|---------------------------------------|--------------|---------------------|-------------|------------------|---------------------|----------------|-----------|-------------|--------|------------|------------------------|
+| hay bales 1  | [41.053618, 24.951705 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 22,339    | 9 m 3 s     | 205    | Done       | 41 + 0                |
+| hay bales 2  | [41.010963, 24.949756 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 59,796    | 18 m 34 s   | 423    | Done       | -                      |
+| hay bales 3  | [41.020659, 24.896946 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 7,718     | 3 m 55 s    | 86     | Done       | 17 + 0                |
+| hay bales 4  | [41.025067, 24.898028 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 166,778   | 19 m 30 s   | 286    | Done       | -                      |
+| hay bales 5  | [40.994026, 24.879148 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 47,865    | 15 m 23 s   | 346    | Done       | -                      |
+| hay bales 6  | [40.985435, 24.881730 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 21,367    | 8 m 22 s    | 188    | Done       | -                      |
+| hay bales 7  | [40.976271, 24.873928 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 68,327    | 10 m 24 s   | 165    | Done       | -                      |
+| hay bales 8  | [40.964069, 24.876639 ...]            | 50           | 10                  | 3.7         | 60               | 70                  | 1.53           | 24,376    | 6 m 31 s    | 103    | Done       | -                      |
+| hay bales 9  | [40.972694, 24.870328 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 67,371    | 9 m 17 s    | 145    | Done       | -                      |
+| hay bales 10 | [40.969827, 24.871326 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 25,423    | 3 m 40 s    | 61     | Done       | 31 + 12               |
+| hay bales 11 | [40.973556, 24.873982 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 79,038    | 10 m 52 s   | 172    | Done       | -                      |
+| hay bales 12 | [40.969773, 24.864482 ...]            | 100          | 10                  | 5.0         | 70               | 55                  | 3.06           | 80,005    | 11 m 7 s    | 80     | Done       | -                      |
+| hay bales 13 | [40.961753, 24.886447 ...]            | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 33,296    | 4 m 7 s     | 40     | Done       | 83 + 0                |
+| hay bales 14 | [40.973552, 24.880445 ...]            | 100          | 10                  | 5.0         | 65               | 70                  | 3.06           | 30,462    | 4 m 20 s    | 47     | Done       | 54 + 9                |
+| hay bales 15 | [41.095315, 24.217687 ...]            | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 140,991   | 14 m 25 s   | 133    | Done       | 40 check again         |
+| hay bales 16 | [41.201531, 23.834753 ...]            | 80           | 10                  | 5.0         | 60               | 70                  | 2.45           | 63,563    | 8 m 59 s    | 119    | Done       | -                      |
 
 
 
