@@ -17,6 +17,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - **Number of images**: 2,599
 - **Formats**: Raw RGB images and Annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats
 - **Annotations**: Semantic segmentation with polygons
+- **Annotation Software Used**: Label Studio
 - **Captured Fields**: The dataset includes imagery from 16 fields, with 14 located in the Xanthi region and 2 in the Drama region, both situated in the northern part of Greece
 - **Orthophotos**: Orthomosaic views for each subset of the dataset, generated through an image stitching process, offering a macro-perspective of the fields
 - **Size**: ~44GB 
@@ -33,6 +34,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | **Number of Images** | 2,599.                                                                     |
 | **Formats**          | Raw RGB images and annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats. |
 | **Annotations**      | Semantic segmentation with polygons.                                       |
+| **Annotation Software Used**      | Label Studio.                                       |
 | **Captured Fields**  | Imagery from 16 fields, with 14 located in the Xanthi region and 2 in the Drama region, both situated in the northern part of Greece |
 | **Orthophotos**      | Orthomosaic views for each subset of the dataset, generated through an image stitching process, offering a macro-perspective of the fields          |
 | **Size**             | ~44GB.                                                                     |
@@ -118,7 +120,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 
 - Annotated: We used the well-known open source labeling software called "Label Studio". We used the labeling process "Semantic Segmentation with Polygons" in order to have an accurate annotation so as this dataset to serve as a valuable benchmark for users that want to evaluate classic or more advanced segmentation algorithms. Also, we provide four annotation options i.e., COCO,CSV,JSON and YOLO aiming at attracting broader audience that may be intrested in individual tasks in the precision agriculture tasks or at more integrated applications within this area.
 
-**Please note that the annotated part includes a folder named "images" where a prefix is added to the original name, like "ff4026a8-" is added to the original name "Hay_bales_1_00057". This is a standard property on how Label Studio handles the export process, where adding a unique prefix ensures that each image file name is distinct, which helps in managing and referencing the images correctly in the dataset. Practically a unique prefix is added to every image for every sub-set of the annotated part in accordance with the original raw dataset.**
+**Please note that the annotated part includes a folder named "images" where a prefix is added to the original name of each image, like "ff4026a8-" is added to the original name "Hay_bales_1_00057". This is a standard property on how Label Studio handles the export process, where adding a unique prefix ensures that each image file name is distinct, which helps in managing and referencing the images correctly in the dataset. Practically a unique prefix is added to every image for every sub-set of the annotated part in accordance with the original raw dataset.**
  
 **Note also that Label Studio often uses paths to refer to the location where the files are stored. Thus the users may notice for example path like (/data/upload/5/089c0055-Hay_bales_1_0001.JPG) in the CSV version. In this case, '089c0055-Hay_bales_1_0001.JPG' is the file name. So, the users can manipulate the strings to extract only the file names in their code in the sense of having the same file name that corresponds to the image in "images" folder excluding the path string and keeping only the filename.**
 
