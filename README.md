@@ -30,17 +30,17 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 
 | Attribute            | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
-| **Images**           | High-resolution RGB images of 16 hay bale fields.                          |
-| **Number of Images** | 2,599.                                                                     |
-| **Formats**          | Raw RGB images and annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats. |
-| **Annotations**      | Semantic segmentation with polygons.                                       |
-| **Annotation Software Used**      | Label Studio.                                       |
+| **Images**           | High-resolution RGB images of 16 hay bale fields                          |
+| **Number of Images** | 2,599                                                                     |
+| **Formats**          | Raw RGB images and annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats |
+| **Annotations**      | Semantic segmentation with polygons                                       |
+| **Annotation Software Used**      | Label Studio                                       |
 | **Captured Fields**  | Imagery from 16 fields, with 14 located in the Xanthi region and 2 in the Drama region, both situated in the northern part of Greece |
 | **Orthophotos**      | Orthomosaic views for each subset of the dataset, generated through an image stitching process, offering a macro-perspective of the fields          |
-| **Size**             | ~44GB.                                                                     |
-| **Resolution**       | 4056 x 3040 (RGB).                                                         |
-| **Flight Parameters**| Various altitudes, speeds, and overlaps.                                   |
-| **Total Area Covered**| 938,715 square meters (m²).                                                |
+| **Size**             | ~44GB                                                                     |
+| **Resolution**       | 4056 x 3040 (RGB)                                                         |
+| **Flight Parameters**| Various altitudes, speeds, and overlaps                                   |
+| **Total Area Covered**| 938,715 square meters (m²)                                                |
 | **Additional Info**  | The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting      |
 
 
