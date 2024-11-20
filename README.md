@@ -7,11 +7,6 @@
 ## Description
 This dataset comprises a comprehensive collection of UAV-captured images of agricultural fields with hay bales. It includes high-resolution RGB imagery (in both raw and annotated -COCO, CSV, JSON, YOLO, Segmentation Masks- formats), catering to a wide range of applications from precision agriculture to machine learning in computer vision and autonomous navigation. More specifically, it encompasses detailed UAV-captured data from agricultural fields, characterized by varied flight parameters to optimize image capture for machine learning applications. This dataset is distinctive due to its diverse altitude range (50-100m), multiple speed settings (3.7-5m/s), and different overlap ratios ensuring comprehensive field coverage. The total area covered by the dataset is 938,715 square meters, with a Ground Sampling Distance (GSD) ranging from 1.53 to 3.06 cm/pixel, facilitating fine-grained analysis. The data includes 2,599 high-resolution RGB images, each meticulously annotated for semantic segmentation, and is coupled with orthophotos to support simulation tasks such as autonomous hay bale collection scenarios. This dataset is a valuable asset for advancements in precision agriculture, offering extensive resources for developing and testing computer vision and path-planning algorithms.
 
-
-
-
-
-
 ## Dataset Details
 - **Images**: High-resolution RGB images of 16 Hay bale fields
 - **Number of images**: 2,599
@@ -43,26 +38,25 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | **Total Area Covered**| 938,715 square meters (m²)                                                |
 | **Additional Info**  | The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting      |
 
-
-| Dataset ID   | Latitude and Longitude                | Altitude (m) | Takeoff Speed (m/s) | Speed (m/s) | Side Overlap (%) | Frontal Overlap (%) | GSD (cm/pixel) | Area (m²) | Flight Time | Photos | Orthophoto | Hay Bale Count         |
-|--------------|---------------------------------------|--------------|---------------------|-------------|------------------|---------------------|----------------|-----------|-------------|--------|------------|------------------------|
-| hay bales 1  | [41.053618, 24.951705 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 22,339    | 9 m 3 s     | 205    | Done       | 41 + 0                |
-| hay bales 2  | [41.010963, 24.949756 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 59,796    | 18 m 34 s   | 423    | Done       | -                      |
-| hay bales 3  | [41.020659, 24.896946 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 7,718     | 3 m 55 s    | 86     | Done       | 17 + 0                |
-| hay bales 4  | [41.025067, 24.898028 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 166,778   | 19 m 30 s   | 286    | Done       | -                      |
-| hay bales 5  | [40.994026, 24.879148 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 47,865    | 15 m 23 s   | 346    | Done       | -                      |
-| hay bales 6  | [40.985435, 24.881730 ...]            | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 21,367    | 8 m 22 s    | 188    | Done       | -                      |
-| hay bales 7  | [40.976271, 24.873928 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 68,327    | 10 m 24 s   | 165    | Done       | -                      |
-| hay bales 8  | [40.964069, 24.876639 ...]            | 50           | 10                  | 3.7         | 60               | 70                  | 1.53           | 24,376    | 6 m 31 s    | 103    | Done       | -                      |
-| hay bales 9  | [40.972694, 24.870328 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 67,371    | 9 m 17 s    | 145    | Done       | -                      |
-| hay bales 10 | [40.969827, 24.871326 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 25,423    | 3 m 40 s    | 61     | Done       | 31 + 12               |
-| hay bales 11 | [40.973556, 24.873982 ...]            | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 79,038    | 10 m 52 s   | 172    | Done       | -                      |
-| hay bales 12 | [40.969773, 24.864482 ...]            | 100          | 10                  | 5.0         | 70               | 55                  | 3.06           | 80,005    | 11 m 7 s    | 80     | Done       | -                      |
-| hay bales 13 | [40.961753, 24.886447 ...]            | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 33,296    | 4 m 7 s     | 40     | Done       | 83 + 0                |
-| hay bales 14 | [40.973552, 24.880445 ...]            | 100          | 10                  | 5.0         | 65               | 70                  | 3.06           | 30,462    | 4 m 20 s    | 47     | Done       | 54 + 9                |
-| hay bales 15 | [41.095315, 24.217687 ...]            | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 140,991   | 14 m 25 s   | 133    | Done       | 40 check again         |
-| hay bales 16 | [41.201531, 23.834753 ...]            | 80           | 10                  | 5.0         | 60               | 70                  | 2.45           | 63,563    | 8 m 59 s    | 119    | Done       | -                      |
-
+## General Information and Metadata
+| Dataset ID   | Altitude (m) | Takeoff Speed (m/s) | Speed (m/s) | Side Overlap (%) | Frontal Overlap (%) | GSD (cm/pixel) | Area (m²) | Flight Time | Photos | Hay Bale Count         |
+|--------------|--------------|---------------------|-------------|------------------|---------------------|----------------|-----------|-------------|--------|------------------------|
+| hay bales 1  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 22,339    | 9 m 3 s     | 205    | 41 + 0                |
+| hay bales 2  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 59,796    | 18 m 34 s   | 423    | -                      |
+| hay bales 3  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 7,718     | 3 m 55 s    | 86     | 17 + 0                |
+| hay bales 4  | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 166,778   | 19 m 30 s   | 286    | -                      |
+| hay bales 5  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 47,865    | 15 m 23 s   | 346    | -                      |
+| hay bales 6  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 21,367    | 8 m 22 s    | 188    | -                      |
+| hay bales 7  | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 68,327    | 10 m 24 s   | 165    | -                      |
+| hay bales 8  | 50           | 10                  | 3.7         | 60               | 70                  | 1.53           | 24,376    | 6 m 31 s    | 103    | -                      |
+| hay bales 9  | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 67,371    | 9 m 17 s    | 145    | -                      |
+| hay bales 10 | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 25,423    | 3 m 40 s    | 61     | 31 + 12               |
+| hay bales 11 | 100          | 10                  | 5.0         | 70               | 80                  | 3.06           | 79,038    | 10 m 52 s   | 172    | -                      |
+| hay bales 12 | 100          | 10                  | 5.0         | 70               | 55                  | 3.06           | 80,005    | 11 m 7 s    | 80     | -                      |
+| hay bales 13 | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 33,296    | 4 m 7 s     | 40     | 83 + 0                |
+| hay bales 14 | 100          | 10                  | 5.0         | 65               | 70                  | 3.06           | 30,462    | 4 m 20 s    | 47     | 54 + 9                |
+| hay bales 15 | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 140,991   | 14 m 25 s   | 133    | 40 check again         |
+| hay bales 16 | 80           | 10                  | 5.0         | 60               | 70                  | 2.45           | 63,563    | 8 m 59 s    | 119    | -                      |
 
 
 ## Applications
