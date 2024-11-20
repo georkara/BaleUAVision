@@ -60,12 +60,6 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 
 
 ## Applications
-- Object detection and counting (hay bales)
-- Agricultural field analysis
-- Training data for machine learning models in computer vision
-- Simulation scenarios for unmanned ground vehicles and robotics
-
-## Applications
 
 The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a variety of fields, including but not limited to:
 
