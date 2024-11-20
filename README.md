@@ -14,13 +14,16 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 
 ## Dataset Details
 - **Images**: High-resolution RGB images of 16 Hay bale fields
+- **Number of images**: 2599
+- **Formats**: Raw RGB images and Annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats
 - **Annotations**: Semantic segmentation with polygons
-- **Orthophotos**: Orthomosaic views are given for each sub-set of this dataset as a result of image stitching process adding a macro perspective property to the dataset
-- **Formats**: Annotations available in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats
-- **Size**: ~43.2GB **leipoun 2 orthophotos**
+- **Captured Fields**: The dataset includes imagery from 16 fields, with 14 located in the Xanthi region and 2 in the Drama region, both situated in the northern part of Greece
+- **Orthophotos**: Orthomosaic views for each subset of the dataset, generated through an image stitching process, offering a macro-perspective of the fields
+- **Size**: ~44GB 
 - **Resolution**: 4056x3040 (RGB) 
 - **Flight Parameters**: Various altitudes, speeds and overlaps
-- **Area Covered**: 938715 square meters (m²) in total
+- **Total Area Covered**: 938,715 square meters (m²) in total
+- **Additional Information**: The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting
 
 ## Applications
 - Object detection and counting (hay bales)
