@@ -1,8 +1,4 @@
-# Hay Bales Dataset - UAV Captured Imagery
-# UAV Agriculture Hay Bales Dataset
-# UAV-based Hay Bale Agricultural Dataset
-# UAV-Captured Hay Bale Agri-Dataset
-# UAV Hay Bale Field Dataset
+# BaleUAVision: Hay Bales UAV Captured Dataset
 
 ## Description
 This dataset comprises a comprehensive collection of UAV-captured images of agricultural fields with hay bales. It includes high-resolution RGB imagery (in both raw and annotated -COCO, CSV, JSON, YOLO, Segmentation Masks- formats), catering to a wide range of applications from precision agriculture to machine learning in computer vision and autonomous navigation. More specifically, it encompasses detailed UAV-captured data from agricultural fields, characterized by varied flight parameters to optimize image capture for machine learning applications. This dataset is distinctive due to its diverse altitude range (50-100m), multiple speed settings (3.7-5m/s), and different overlap ratios ensuring comprehensive field coverage. The total area covered by the dataset is 938,715 square meters, with a Ground Sampling Distance (GSD) ranging from 1.53 to 3.06 cm/pixel, facilitating fine-grained analysis. The data includes 2,599 high-resolution RGB images, each meticulously annotated for semantic segmentation, and is coupled with orthophotos to support simulation tasks such as autonomous hay bale collection scenarios. This dataset is a valuable asset for advancements in precision agriculture, offering extensive resources for developing and testing computer vision and path-planning algorithms.
