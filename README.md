@@ -1,5 +1,5 @@
 # BaleUAVision: Hay Bales UAV Captured Dataset
-![BaleUAVision Logo](BaleUAVision%20logo.png)
+<!--  ![BaleUAVision Logo](BaleUAVision%20logo.png) -->
 <p align="center">
   <img src="BaleUAVision%20logo.png" alt="BaleUAVision Logo" width="500">
 </p>
