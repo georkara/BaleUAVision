@@ -60,6 +60,237 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | hay bales 16 | 80           | 10                  | 5.0         | 60               | 70                  | 2.45           | 63,563    | 8 m 59 s    | 119    | 33 + 0        |
 
 
+<div style="font-size: 0.8em; overflow-x: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset ID</th>
+        <th>Altitude (m)</th>
+        <th>Takeoff Speed (m/s)</th>
+        <th>Speed (m/s)</th>
+        <th>Side Overlap (%)</th>
+        <th>Frontal Overlap (%)</th>
+        <th>GSD (cm/pixel)</th>
+        <th>Area (m²)</th>
+        <th>Flight Time</th>
+        <th>Photos</th>
+        <th>Hay Bale Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>hay bales 1</td>
+        <td>50</td>
+        <td>10</td>
+        <td>3.7</td>
+        <td>70</td>
+        <td>80</td>
+        <td>1.53</td>
+        <td>22,339</td>
+        <td>9 m 3 s</td>
+        <td>205</td>
+        <td>41 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 2</td>
+        <td>50</td>
+        <td>10</td>
+        <td>3.7</td>
+        <td>70</td>
+        <td>80</td>
+        <td>1.53</td>
+        <td>59,796</td>
+        <td>18 m 34 s</td>
+        <td>423</td>
+        <td>49 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 3</td>
+        <td>50</td>
+        <td>10</td>
+        <td>3.7</td>
+        <td>70</td>
+        <td>80</td>
+        <td>1.53</td>
+        <td>7,718</td>
+        <td>3 m 55 s</td>
+        <td>86</td>
+        <td>17 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 4</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>70</td>
+        <td>80</td>
+        <td>3.06</td>
+        <td>166,778</td>
+        <td>19 m 30 s</td>
+        <td>286</td>
+        <td>107 + 5</td>
+      </tr>
+      <tr>
+        <td>hay bales 5</td>
+        <td>50</td>
+        <td>10</td>
+        <td>3.7</td>
+        <td>70</td>
+        <td>80</td>
+        <td>1.53</td>
+        <td>47,865</td>
+        <td>15 m 23 s</td>
+        <td>346</td>
+        <td>69 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 6</td>
+        <td>50</td>
+        <td>10</td>
+        <td>3.7</td>
+        <td>70</td>
+        <td>80</td>
+        <td>1.53</td>
+        <td>21,367</td>
+        <td>8 m 22 s</td>
+        <td>188</td>
+        <td>31 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 7</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>70</td>
+        <td>80</td>
+        <td>3.06</td>
+        <td>68,327</td>
+        <td>10 m 24 s</td>
+        <td>165</td>
+        <td>67 + 20</td>
+      </tr>
+      <tr>
+        <td>hay bales 8</td>
+        <td>50</td>
+        <td>10</td>
+        <td>3.7</td>
+        <td>60</td>
+        <td>70</td>
+        <td>1.53</td>
+        <td>24,376</td>
+        <td>6 m 31 s</td>
+        <td>103</td>
+        <td>38 + 13</td>
+      </tr>
+      <tr>
+        <td>hay bales 9</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>70</td>
+        <td>80</td>
+        <td>3.06</td>
+        <td>67,371</td>
+        <td>9 m 17 s</td>
+        <td>145</td>
+        <td>94 + 40</td>
+      </tr>
+      <tr>
+        <td>hay bales 10</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>70</td>
+        <td>80</td>
+        <td>3.06</td>
+        <td>25,423</td>
+        <td>3 m 40 s</td>
+        <td>61</td>
+        <td>31 + 12</td>
+      </tr>
+      <tr>
+        <td>hay bales 11</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>70</td>
+        <td>80</td>
+        <td>3.06</td>
+        <td>79,038</td>
+        <td>10 m 52 s</td>
+        <td>172</td>
+        <td>51 + 14</td>
+      </tr>
+      <tr>
+        <td>hay bales 12</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>70</td>
+        <td>55</td>
+        <td>3.06</td>
+        <td>80,005</td>
+        <td>11 m 7 s</td>
+        <td>80</td>
+        <td>58 + 11</td>
+      </tr>
+      <tr>
+        <td>hay bales 13</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>60</td>
+        <td>65</td>
+        <td>3.06</td>
+        <td>33,296</td>
+        <td>4 m 7 s</td>
+        <td>40</td>
+        <td>83 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 14</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>65</td>
+        <td>70</td>
+        <td>3.06</td>
+        <td>30,462</td>
+        <td>4 m 20 s</td>
+        <td>47</td>
+        <td>54 + 9</td>
+      </tr>
+      <tr>
+        <td>hay bales 15</td>
+        <td>100</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>60</td>
+        <td>65</td>
+        <td>3.06</td>
+        <td>140,991</td>
+        <td>14 m 25 s</td>
+        <td>133</td>
+        <td>40 + 0</td>
+      </tr>
+      <tr>
+        <td>hay bales 16</td>
+        <td>80</td>
+        <td>10</td>
+        <td>5.0</td>
+        <td>60</td>
+        <td>70</td>
+        <td>2.45</td>
+        <td>63,563</td>
+        <td>8 m 59 s</td>
+        <td>119</td>
+        <td>33 + 0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 ## Applications
 
 The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a variety of fields, including but not limited to:
