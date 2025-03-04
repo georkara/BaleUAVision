@@ -40,7 +40,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | **Additional Info**  | The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting      |
 
 ## General Information and Metadata
-| Dataset ID   | Altitude (m) | Takeoff Speed (m/s) | Speed (m/s) | Side Overlap (%) | Frontal Overlap (%) | GSD (cm/pixel) | Area (m²) | Flight Time | Photos | Hay Bale Count<sup><a href="#footnote1">1</a></sup> |
+| Dataset ID   | Altitude (m) | Takeoff Speed (m/s) | Speed (m/s) | Side Overlap (%) | Frontal Overlap (%) | GSD (cm/pixel) | Area (m²) | Flight Time | Photos | Hay Bale Count<sup><a href="#footnote1">*</a></sup> |
 |--------------|--------------|---------------------|-------------|------------------|---------------------|----------------|-----------|-------------|--------|---------------|
 | hay bales 1  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 22,339    | 9 m 3 s     | 205    | 41 + 0        |
 | hay bales 2  | 50           | 10                  | 3.7         | 70               | 80                  | 1.53           | 59,796    | 18 m 34 s   | 423    | 49 + 0        |
@@ -59,7 +59,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | hay bales 15 | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 140,991   | 14 m 25 s   | 133    | 40 + 0        |
 | hay bales 16 | 80           | 10                  | 5.0         | 60               | 70                  | 2.45           | 63,563    | 8 m 59 s    | 119    | 33 + 0        |
 
-<p id="footnote1"><strong>1</strong>: Count of hay bales identified by a human observer through manual inspection of the orthophotos, including both the primary field and any visible surrounding area -> (field + surrounding area) </p>
+<p id="footnote1"><strong>*</strong>: Count of hay bales identified by a human observer through manual inspection of the orthophotos, including both the primary field and any visible surrounding area -> (field + surrounding area) </p>
 
 
 
