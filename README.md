@@ -59,7 +59,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 | hay bales 15 | 100          | 10                  | 5.0         | 60               | 65                  | 3.06           | 140,991   | 14 m 25 s   | 133    | 40 + 0        |
 | hay bales 16 | 80           | 10                  | 5.0         | 60               | 70                  | 2.45           | 63,563    | 8 m 59 s    | 119    | 33 + 0        |
 
-<p id="footnote1"><strong>1</strong>: This count includes only manually verified hay bales from the field and the visible surrounding area.</p>
+<p id="footnote1"><strong>1</strong>: Count of hay bales identified by a human observer through manual inspection of the orthophotos, including both the primary field and any visible surrounding area -> (field + surrounding area) </p>
 
 
 
