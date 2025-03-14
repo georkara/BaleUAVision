@@ -199,7 +199,7 @@ Below, you can see the segmentation masks for the same four cases as before:
 
 *Figure 5: Segmentation masks corresponding to the previously visualized annotated images. Upper left: Image No. 232 of Hay bales 2; Upper right: Image No. 138 of Hay bales 2; Lower left: Image No. 24 of Hay bales 13; Lower right: Image No. 24 of Hay bales 13;*
 
-Note that images in **Figure 5** are illustrated smaller just for simplicity. The size of segmentation masks is 4056 x 3040 as in the other annotated formats.
+**Note that** images in **Figure 5** are illustrated smaller just for simplicity. The size of segmentation masks is **4056 x 3040** as in the other annotated formats.
 
   
 ## Usage
