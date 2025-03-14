@@ -167,6 +167,16 @@ Once the paths are updated, execute the script:
 python visualization_coco.py
 ```
 and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales 2\visualized_coco" there are all the visualized annotations for this specific Study Field ID.
+#### Example Output  
+Below are two **indicative images** showcasing the annotation visualization:
+
+![Example 1](/image1.png)  
+*Figure 1: Visualized COCO annotation for a sample image.*
+
+![Example 2](/image2.png)  
+*Figure 2: Another example of visualized annotations in COCO format.*
+
+
 
 
   
