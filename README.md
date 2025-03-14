@@ -158,7 +158,7 @@ Lets say that I want to run `visualization_coco.py` in order to view the COCO fo
 
 ```python
 # Update these paths based on your dataset location
-annotation_path = r'D:\BaleUAVision\Annotated Data\Hay bales 21\Hay-bales-2-COCO.json'
+annotation_path = r'D:\BaleUAVision\Annotated Data\Hay bales 2\Hay-bales-2-COCO.json'
 image_dir = r'D:\BaleUAVision\Annotated Data\Hay bales 2\images'
 output_dir = r'D:\BaleUAVision\Annotations Visualization\Hay bales 2\visualized_coco'
 ```
