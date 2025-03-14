@@ -190,11 +190,11 @@ Below are four **indicative images** showcasing the annotation visualization. Th
 And don't forget about the segmentation masks that you already have within each subset folder of annotations: Annotated → Hay bales `{Study Field ID}` → Masks
 Below, you can see the segmentation masks for the same four cases as before:
 <p align="center">
-  <img src="02f18d9e-Hay_bales_2_000232_mask.png" width="24%">
-  <img src="2f27aebd-Hay_bales_2_000138_mask.png" width="24%">
+  <img src="02f18d9e-Hay_bales_2_000232_mask.png" width="32%">
+  <img src="2f27aebd-Hay_bales_2_000138_mask.png" width="32%">
   <br>
-  <img src="4d4d06a9-Hay_bales_13_000024_mask.png" width="24%">
-  <img src="5cedd97d-Hay_bales_13_000039_mask.png" width="24%">
+  <img src="4d4d06a9-Hay_bales_13_000024_mask.png" width="32%">
+  <img src="5cedd97d-Hay_bales_13_000039_mask.png" width="32%">
 </p>
 
 *Figure 5: Segmentation masks corresponding to the previously visualized annotated images. Upper left: Image No. 232 of Hay bales 2; Upper right: Image No. 138 of Hay bales 2; Lower left: Image No. 24 of Hay bales 13; Lower right: Image No. 24 of Hay bales 13;*
