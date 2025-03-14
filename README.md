@@ -176,16 +176,16 @@ and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales
 Below are four **indicative images** showcasing the annotation visualization. The first pair is from Hay bales 2, while the second pair of images is from Hay bales 13 subset.
 
 ![Example 1](02f18d9e-Hay_bales_2_000232_annotated.JPG)  
-*Figure 1: Visualized COCO annotation for image 232 of Hay bales 2 subset.*
+*Figure 1: Visualized COCO annotation for image No.232 of Hay bales 2 subset.*
 
 ![Example 2](2f27aebd-Hay_bales_2_000138_annotated.JPG)  
-*Figure 2: Another example, image 138, of visualized annotations in COCO format from Hay bales 2 subset.*
+*Figure 2: Another example, image No.138, of visualized annotations in COCO format from Hay bales 2 subset.*
 
 ![Example 3](4d4d06a9-Hay_bales_13_000024_annotated.JPG)  
-*Figure 3: Visualized COCO annotation for image 24 of Hay bales 13 subset.*
+*Figure 3: Visualized COCO annotation for image No.24 of Hay bales 13 subset.*
 
 ![Example 4](5cedd97d-Hay_bales_13_000039_annotated.JPG)  
-*Figure 4: Another example, image 39, of visualized annotations in COCO format from Hay bales 13 subset. Note that the flight mission in this study field was conducted using 100m altitude, but the last 2 images of this Hay bales 13 subset have been captured during landing.*
+*Figure 4: Another example, image No.39, of visualized annotations in COCO format from Hay bales 13 subset. Note that the flight mission in this study field was conducted using 100m altitude, but the last 2 images of this Hay bales 13 subset have been captured during landing.*
 
 And don't forget about the segmentation masks that you already have within each subset folder of annotations: Annotated → Hay bales `{Study Field ID}` → Masks
 
@@ -198,7 +198,7 @@ Below, you can see the segmentation masks for the same four cases as before:
   <img src="5cedd97d-Hay_bales_13_000039_mask.png" width="32%">
 </p>
 
-*Figure 5: Segmentation masks corresponding to the previously visualized annotated images. Upper left: Image No. 232 of Hay bales 2; Upper right: Image No. 138 of Hay bales 2; Lower left: Image No. 24 of Hay bales 13; Lower right: Image No. 24 of Hay bales 13;*
+*Figure 5: Segmentation masks corresponding to the previously visualized annotated images. Upper left: Image No.232 of Hay bales 2; Upper right: Image No.138 of Hay bales 2; Lower left: Image No.24 of Hay bales 13; Lower right: Image No.39 of Hay bales 13;*
 
 **Note that** images in **Figure 5** are illustrated smaller just for simplicity. The size of segmentation masks is **4056 x 3040** as in the other annotated formats.
 
