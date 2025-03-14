@@ -145,10 +145,13 @@ Each script requires defining the correct file paths for annotations, images, an
 annotation_path = r'E:\drone\New\Hay bales Dataset\Annotated Data\Hay bales {Study Field ID}\Hay-bales-{Study Field ID}-COCO.json'
 image_dir = r'E:\drone\New\Hay bales Dataset\Annotated Data\Hay bales {Study Field ID}\images'
 output_dir = r'E:\drone\New\Hay bales Dataset\Annotations Visualization\Hay bales {Study Field ID}\visualized_coco'
+```
 
-**annotation_path** → Path to the COCO annotation file. Replace `{Study Field ID}` with the correct dataset ID.
-**image_dir** → Directory containing the corresponding images.
-**output_dir** → Directory where visualized images will be saved.
+
+- **annotation_path** → Path to the COCO annotation file. Replace `{Study Field ID}` with the correct dataset ID.  
+- **image_dir** → Directory containing the corresponding images.  
+- **output_dir** → Directory where visualized images will be saved.  
+
 
 #### Updating Paths
 Before running the script, modify these paths according to your dataset's location. Example:
