@@ -106,10 +106,10 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
               ├── Hay-bales-16-JSON  
               └── notes
       ├── Codes
-          ├── **visualization_coco.py**
-          ├── **visualization_csv.py**
-          ├── **visualization_json.py**
-          └── **visualization_yolo.py**
+          ├── visualization_coco.py # produces the visualization representations for the coco formated annotations
+          ├── visualization_csv.py  # produces the visualization representations for the csv formated annotations
+          ├── visualization_json.py # produces the visualization representations for the json formated annotations
+          └── visualization_yolo.py # produces the visualization representations for the yolo formated annotations
       ├── Orthophotos
           ├── Hay bales 1 orthophoto # .tiff images for classic orthomosaic/panorama representation
           ├── Hay bales 2 orthophoto
