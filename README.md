@@ -180,7 +180,7 @@ Below are four **indicative images** showcasing the annotation visualization. Th
 *Figure 3: Visualized COCO annotation for image 24 of Hay bales 13 subset.*
 
 ![Example 3](5cedd97d-Hay_bales_13_000039_annotated.JPG)  
-*Figure 3: Another example, image 39, of visualized annotations in COCO format from Hay bales 13 subset.*
+*Figure 3: Another example, image 39, of visualized annotations in COCO format from Hay bales 13 subset. Note that the flight mission in this study field was conducted using 100m altitude, but the last 2 images of this sub-dataset have been captured during landing.*
 
 
 
