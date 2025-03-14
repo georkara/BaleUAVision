@@ -131,7 +131,40 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 - **Dataset Description.csv**: Contains general information and metadata. Various attributes are included to provide with additional/supportive data such as Dataset ID, Latitude and Longitude of the flight polygon, Altitude, Takeoff Speed, Flight Speed, Side and Frontal Overlap Ratios, Ground Sampling Distance (GSD), Area of Flight Polygon, Flight Time, Number of Photos in Dataset, Orthophoto availability, and the Number of Hay bales depicted. The number of hay bales are provided for the under examination field, i.e., the area of interest + the surrounding area of vision (the number of hay bales has been counted manually from the provided orthophotos).
 
 ### Visualize Annotations
-In case that you want to inspect the annotated images, we offer options through the python scripts: visualization_json.py; visualization_csv.py; visualization_coco.py; visualization_coco2.py;
+In case that you want to inspect the annotated images, we offer options through the Python scripts:
+
+- `visualization_json.py`
+- `visualization_csv.py`
+- `visualization_coco.py`
+- `visualization_coco2.py`
+
+Each script requires defining the correct file paths for annotations, images, and output storage. Update the following paths in your script before running:
+
+```python
+# Provide paths to your annotation file, image directory, and output directory
+annotation_path = r'E:\drone\New\Hay bales Dataset\Annotated Data\Hay bales {Study Field ID}\Hay-bales-{Study Field ID}-COCO.json'
+image_dir = r'E:\drone\New\Hay bales Dataset\Annotated Data\Hay bales {Study Field ID}\images'
+output_dir = r'E:\drone\New\Hay bales Dataset\Annotations Visualization\Hay bales {Study Field ID}\visualized_coco'
+
+- **`annotation_path`** → Path to the COCO annotation file. Replace `{Study Field ID}` with the correct dataset ID.
+- **`image_dir`** → Directory containing the corresponding images.
+- **`output_dir`** → Directory where visualized images will be saved.
+
+#### Updating Paths
+Before running the script, modify these paths according to your dataset's location. Example:
+
+```python
+# Update these paths based on your dataset location
+annotation_path = r'D:\datasets\Hay bales Dataset\Annotated Data\Hay bales 21\Hay-bales-21-COCO.json'
+image_dir = r'D:\datasets\Hay bales Dataset\Annotated Data\Hay bales 21\images'
+output_dir = r'D:\datasets\Hay bales Dataset\Annotations Visualization\Hay bales 21\visualized_coco'
+
+#### Running the Script
+Once the paths are updated, execute the script:
+
+```bash
+python visualization_coco.py
+
   
 ## Usage
 The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
