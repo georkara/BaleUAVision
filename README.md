@@ -171,10 +171,10 @@ and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales
 Below are two **indicative images** showcasing the annotation visualization:
 
 ![Example 1](02f18d9e-Hay_bales_2_000232_annotated.JPG)  
-*Figure 1: Visualized COCO annotation for a sample image.*
+*Figure 1: Visualized COCO annotation for image 232 of Hay bales 2 subset.*
 
-![Example 2](/image2.png)  
-*Figure 2: Another example of visualized annotations in COCO format.*
+![Example 2](2f27aebd-Hay_bales_2_000138_annotated.JPG)  
+*Figure 2: Another example, image 138, of visualized annotations in COCO format from Hay bales 2 subset.*
 
 
 
