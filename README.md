@@ -168,7 +168,7 @@ python visualization_coco.py
 ```
 and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales 2\visualized_coco" there are all the visualized annotations for this specific Study Field ID.
 #### Example Output  
-Below are two **indicative images** showcasing the annotation visualization:
+Below are four **indicative images** showcasing the annotation visualization. The first pair is from Hay bales 2, while the second pair of images is from Hay bales 13 subset.
 
 ![Example 1](02f18d9e-Hay_bales_2_000232_annotated.JPG)  
 *Figure 1: Visualized COCO annotation for image 232 of Hay bales 2 subset.*
@@ -176,6 +176,11 @@ Below are two **indicative images** showcasing the annotation visualization:
 ![Example 2](2f27aebd-Hay_bales_2_000138_annotated.JPG)  
 *Figure 2: Another example, image 138, of visualized annotations in COCO format from Hay bales 2 subset.*
 
+![Example 3](4d4d06a9-Hay_bales_13_000024_annotated.JPG)  
+*Figure 3: Visualized COCO annotation for image 24 of Hay bales 13 subset.*
+
+![Example 3](5cedd97d-Hay_bales_13_000039_annotated.JPG)  
+*Figure 3: Another example, image 39, of visualized annotations in COCO format from Hay bales 13 subset.*
 
 
 
