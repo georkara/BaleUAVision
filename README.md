@@ -133,7 +133,7 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 ### Visualize Annotations
 In case that you want to inspect the annotated images, we offer options through the Python scripts:
 
-- `visualization_json.py`
+- `<span style="color: red;">visualization_json.py</span>`
 - `visualization_csv.py`
 - `visualization_coco.py`
 - `visualization_coco2.py`
