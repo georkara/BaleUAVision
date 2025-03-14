@@ -170,7 +170,7 @@ and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales
 #### Example Output  
 Below are two **indicative images** showcasing the annotation visualization:
 
-![Example 1](/image1.png)  
+![Example 1](/02f18d9e-Hay_bales_2_000232_annotated.JPG.png)  
 *Figure 1: Visualized COCO annotation for a sample image.*
 
 ![Example 2](/image2.png)  
