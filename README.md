@@ -154,7 +154,7 @@ output_dir = r'E:\drone\New\Hay bales Dataset\Annotations Visualization\Hay bale
 
 
 #### A Simple Example
-Before running the script, I modify these paths according to my dataset's location for Hay bales 2 case. Example:
+Lets say that I want to run `visualization_coco.py` in order to view the COCO format annotations. Before running the script, I modify these paths according to my dataset's location for Hay bales 2 case. Example:
 
 ```python
 # Update these paths based on your dataset location
