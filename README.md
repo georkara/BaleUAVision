@@ -130,7 +130,7 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 
 - **Dataset Description.csv**: Contains general information and metadata. Various attributes are included to provide with additional/supportive data such as Dataset ID, Latitude and Longitude of the flight polygon, Altitude, Takeoff Speed, Flight Speed, Side and Frontal Overlap Ratios, Ground Sampling Distance (GSD), Area of Flight Polygon, Flight Time, Number of Photos in Dataset, Orthophoto availability, and the Number of Hay bales depicted. The number of hay bales are provided for the under examination field, i.e., the area of interest + the surrounding area of vision (the number of hay bales has been counted manually from the provided orthophotos).
 
-### Visualize Annotations
+## Visualize Annotations
 In case that you want to inspect the annotated images, we offer options through the Python scripts:
 
 - `visualization_json.py`
