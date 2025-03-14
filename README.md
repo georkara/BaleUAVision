@@ -184,10 +184,10 @@ Below are four **indicative images** showcasing the annotation visualization. Th
 ![Example 3](4d4d06a9-Hay_bales_13_000024_annotated.JPG)  
 *Figure 3: Visualized COCO annotation for image 24 of Hay bales 13 subset.*
 
-![Example 3](5cedd97d-Hay_bales_13_000039_annotated.JPG)  
-*Figure 3: Another example, image 39, of visualized annotations in COCO format from Hay bales 13 subset. Note that the flight mission in this study field was conducted using 100m altitude, but the last 2 images of this Hay bales 13 subset have been captured during landing.*
+![Example 4](5cedd97d-Hay_bales_13_000039_annotated.JPG)  
+*Figure 4: Another example, image 39, of visualized annotations in COCO format from Hay bales 13 subset. Note that the flight mission in this study field was conducted using 100m altitude, but the last 2 images of this Hay bales 13 subset have been captured during landing.*
 
-
+And don't forget about the segmentation masks that you already have within each subset folder of annotations: Annotated → Hay bales `{Study Field ID}`
 
   
 ## Usage
