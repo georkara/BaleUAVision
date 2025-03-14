@@ -161,12 +161,14 @@ Before running the script, modify these paths according to your dataset's locati
 annotation_path = r'D:\datasets\Hay bales Dataset\Annotated Data\Hay bales 21\Hay-bales-21-COCO.json'
 image_dir = r'D:\datasets\Hay bales Dataset\Annotated Data\Hay bales 21\images'
 output_dir = r'D:\datasets\Hay bales Dataset\Annotations Visualization\Hay bales 21\visualized_coco'
+```
 
 #### Running the Script
 Once the paths are updated, execute the script:
 
 ```bash
 python visualization_coco.py
+```
 
   
 ## Usage
