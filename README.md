@@ -105,6 +105,11 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
               ├── Hay-bales-16-CSV  
               ├── Hay-bales-16-JSON  
               └── notes
+      ├── Codes
+          ├── **visualization_coco.py**
+          ├── **visualization_csv.py**
+          ├── **visualization_json.py**
+          └── **visualization_yolo.py**
       ├── Orthophotos
           ├── Hay bales 1 orthophoto # .tiff images for classic orthomosaic/panorama representation
           ├── Hay bales 2 orthophoto
@@ -133,10 +138,10 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 ## Visualize Annotations
 In case that you want to inspect the annotated images, we offer options through the Python scripts:
 
-- `visualization_json.py`
-- `visualization_csv.py`
 - `visualization_coco.py`
-- `visualization_coco2.py`
+- `visualization_csv.py`
+- `visualization_json.py`
+- `visualization_yolo.py`
 
 Each script requires defining the correct file paths for annotations, images, and output storage. Update the following paths in your script before running:
 
