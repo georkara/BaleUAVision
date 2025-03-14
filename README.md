@@ -148,27 +148,26 @@ output_dir = r'E:\drone\New\Hay bales Dataset\Annotations Visualization\Hay bale
 ```
 
 
-- **annotation_path** → Path to the COCO annotation file. Replace `{Study Field ID}` with the correct dataset ID.  
+- **annotation_path** → Path to the COCO/YOLO/json/csv annotation file. Replace `{Study Field ID}` with the correct dataset ID.  
 - **image_dir** → Directory containing the corresponding images.  
 - **output_dir** → Directory where visualized images will be saved.  
 
 
-#### Updating Paths
-Before running the script, modify these paths according to your dataset's location. Example:
+#### A Simple Example
+Before running the script, I modify these paths according to my dataset's location for Hay bales 2 case. Example:
 
 ```python
 # Update these paths based on your dataset location
-annotation_path = r'D:\datasets\Hay bales Dataset\Annotated Data\Hay bales 21\Hay-bales-21-COCO.json'
-image_dir = r'D:\datasets\Hay bales Dataset\Annotated Data\Hay bales 21\images'
-output_dir = r'D:\datasets\Hay bales Dataset\Annotations Visualization\Hay bales 21\visualized_coco'
+annotation_path = r'D:\BaleUAVision\Annotated Data\Hay bales 21\Hay-bales-2-COCO.json'
+image_dir = r'D:\BaleUAVision\Annotated Data\Hay bales 2\images'
+output_dir = r'D:\BaleUAVision\Annotations Visualization\Hay bales 2\visualized_coco'
 ```
-
-#### Running the Script
 Once the paths are updated, execute the script:
-
 ```bash
 python visualization_coco.py
 ```
+and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales 2\visualized_coco" there are all the visualized annotations for this specific Study Field ID.
+
 
   
 ## Usage
