@@ -203,7 +203,38 @@ Below, you can see the segmentation masks for the same four cases as before:
 **Note that** images in **Figure 5** are illustrated smaller just for simplicity. The size of segmentation masks is **4056 x 3040** as in the other annotation formats.
 
   
-## Usage
+## Usage / Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/georkara/BaleUAVision.git
+   cd BaleUAVision
+   ```
+2. **Create your environment:**
+   ```bash
+   conda env create -f environment.yml
+   conda activate bales
+   ```
+3. **Create train/val splits and train the YOLO model:**
+    ```bash
+    python split_train_val.py --path bales/data
+    ```
+    A custom split can be generated with the following flags:
+    ```bash
+    python split_train_val.py --path bales/data --train_ids 0 1 2 3 --val_ids 14 15
+    ```
+    Train the model
+    ```bash
+    python train.py
+    ```
+    or using custom arguments
+    ```bash
+    python train.py --model path/to/yolo_model --data path/to/yaml --epochs num_epochs --imgsz image_size -- name output_directory
+    ```
+4. **Running inference on a specific parcel id:**
+    ```bash
+    python inference.py --model path/to/model --image_dir path/to/images --output_dir path/to/results
+    ```
+
 The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
 
 Please ensure to cite this dataset if used in your research or project.
