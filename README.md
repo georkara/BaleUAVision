@@ -147,12 +147,12 @@ This combined chart provides an overview of the datasets by showing:
   
 This figure offers insights into how flight parameters, such as altitude, may affect bale detection rates.
 ![Hay Bale Analysis Overview](hay_bales_analysis_overview.png)
-<img src="hay_bales_analysis_overview.png" alt="Hay Bale Analysis Overview" width="500">
+<!--  <img src="hay_bales_analysis_overview.png" alt="Hay Bale Analysis Overview" width="500">   -->
 
 ### 2. Boxplot of Annotation Counts
 This boxplot compares the median, quartiles, and outliers of annotation counts across each hay field. It helps identify fields with a consistent bale count versus those with high variability and occasional outliers.
 ![Boxplot of Annotation Counts](boxplot.png)
-<img src="boxplot.png" alt="Boxplot of Annotation Counts" width="500">
+<!--  <img src="boxplot.png" alt="Boxplot of Annotation Counts" width="500">  -->
 
 ### 2. Histograms per Field
 These histograms show the frequency distribution of bale counts for each hay field. They reveal the most common bale count in each field and highlight fields that have a long tail of images with exceptionally high counts.
