@@ -152,14 +152,13 @@ This figure offers insights into how flight parameters, such as altitude, may af
 ### 2. Boxplot of Annotation Counts
 This boxplot compares the median, quartiles, and outliers of annotation counts across each hay field. It helps identify fields with a consistent bale count versus those with high variability and occasional outliers. 
 
-**Median and Quartiles:**  
-Each box represents the 25th to 75th percentile of bale counts, with a line marking the median. This tells you the "middle" of the distribution for each field.
+- **Median and Quartiles**: Each box represents the 25th to 75th percentile of bale counts, with a line marking the median. This tells you the "middle" of the distribution for each field.
 
-**Whiskers and Outliers:**  
-Whiskers typically extend to about 1.5× the interquartile range (IQR) beyond the box, and points outside that range are plotted as outliers. Fields with very tall whiskers or many outliers suggest a broad range of bale counts (i.e., some images have very high counts compared to most).
+- **Whiskers and Outliers**: Whiskers typically extend to about 1.5× the interquartile range (IQR) beyond the box, and points outside that range are plotted as outliers. Fields with very tall whiskers or many outliers suggest a broad range of bale counts (i.e., some images have very high counts compared to most).
 
-**Comparison Across Fields:**  
-You can quickly see which fields generally have higher or lower bale counts. For example, if *Hay bales 14* has a box that sits high on the y-axis, that means it has higher bale counts on average or at least a large range with some very high values.
+- **Comparison Across Fields**: You can quickly see which fields generally have higher or lower bale counts. For example, if *Hay bales 14* has a box that sits high on the y-axis, that means it has higher bale counts on average or at least a large range with some very high values.
+
+
 
 
 ![Boxplot of Annotation Counts](boxplot.png)
