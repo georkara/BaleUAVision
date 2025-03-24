@@ -152,9 +152,9 @@ This figure offers insights into how flight parameters, such as altitude, may af
 ### 2. Boxplot of Annotation Counts
 This boxplot compares the median, quartiles, and outliers of annotation counts across each hay field. It helps identify fields with a consistent bale count versus those with high variability and occasional outliers. 
 
-- **Median and Quartiles**: Each box represents the 25th to 75th percentile of bale counts, with a line marking the median. This tells you the "middle" of the distribution for each field.
+- **Median and Quartiles**: Each box represents the 25th to 75th percentile of bale counts, with a line marking the median. This tells you the "middle" of the distribution for each field. For example, *Hay bales 9*, *Hay bales 13* and *Hay bales 14* present the most dense cases.
 
-- **Whiskers and Outliers**: Whiskers typically extend to about 1.5× the interquartile range (IQR) beyond the box, and points outside that range are plotted as outliers. Fields with very tall whiskers or many outliers suggest a broad range of bale counts (i.e., some images have very high counts compared to most).
+- **Whiskers and Outliers**: Whiskers typically extend the interquartile range (IQR) beyond the box, and points outside that range are plotted as outliers. Fields with very tall whiskers or many outliers suggest a broad range of bale counts (i.e., some images have very high counts compared to most). For example, *Hay bales 3* seems to have a clear outlier. If you check the dataset, you will realize that there is one image (Hay_bales_3_00086.JPG) that captures during landing, from a non nadir angle, a large number of hay bales from current and other fields in the background. Also, *Hay bales 10* and *Hay bales 13* present similar cases with 2 images in each case at the end of the flight. On the contrary, *Hay bales 12* presents a cases where in the middle of the field the presence of hay bales is more dense leading to this result.
 
 - **Comparison Across Fields**: You can quickly see which fields generally have higher or lower bale counts. For example, if *Hay bales 14* has a box that sits high on the y-axis, that means it has higher bale counts on average or at least a large range with some very high values.
 
