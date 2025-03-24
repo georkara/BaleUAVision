@@ -137,6 +137,13 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 
 
 ## Dataset Insights and Analysis - At a glance
+Below is a set of main plots that illustrate the dataset characteristics from an overal oversight among with distribution and variability of hay bale annotations.
+
+### 2. Boxplot of Annotation Counts
+![Boxplot of Annotation Counts](images/boxplot_annotations.png)
+### 2. Boxplot of Annotation Counts
+This boxplot compares the median, quartiles, and outliers of annotation counts across each hay field.
+![Boxplot of Annotation Counts](images/boxplot_annotations.png)
 
 
 
