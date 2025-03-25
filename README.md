@@ -172,14 +172,17 @@ These histograms show the frequency distribution of bale counts for each hay fie
 
 - **Comparison of Variability**: Fields with very wide histograms have more variability; fields with a narrow histogram are more uniform.
 
-- 
+
 ![Histograms per Field](histograms.png)
 
 ### 4. Annotation Count per Image
-This plot displays the annotation count for each image in sequential order. The observed wave-like (cyclical) patterns suggest that the UAV followed a systematic back-and-forth flight path—peaks occur when the drone is optimally positioned over the field, and troughs likely correspond to turning maneuvers.
+This plot displays the annotation count for each image in sequential order. The observed wave-like (cyclical) patterns suggest that the UAV followed a systematic back-and-forth flight path—peaks occur when the drone is positioned over the field (closer to the centre of the field), and dips likely correspond to turning maneuvers.
 ![Annotation Count vs Image ID](annotation_counts.png)
 
+- **Trends Across the Flight Sequence**: These plots show how bale counts fluctuate image by image within each sub-set. The wave-like patterns come from the UAV flying a back-and-forth “lawnmower” path (peaks when fully over the field, dips when turning or on the edges).
 
+
+- **Outlier Frames**: Sudden spikes as presented in *Hay bales 3*, *Hay bales 10* and *Hay bales 13* indicate images that captured from a non-nadir angle capturing a large number of images during landing. Sudden drops may be partial coverage or the drone turning away from the main field as mentioned.
 
 
 ## Visualize Annotations
