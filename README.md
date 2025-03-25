@@ -22,7 +22,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - **Flight Parameters**: Various altitudes, speeds and overlaps
 - **Geo-location**: Yes, each image is geo-referenced
 - **Total Area Covered**: 938,715 square meters (m²) in total
-- **Additional Information**: The number of hay bales has been manually counted for each field, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting
+- **Additional Information**: The number of hay bales has been manually counted for each field from the orthophoto representations, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting
 
 ## Dataset Details Table
 
