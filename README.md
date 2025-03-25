@@ -13,6 +13,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - **Number of images**: 2,599
 - **Formats**: Raw RGB images and Annotated images in {COCO, CSV, JSON, YOLO, Segmentation Masks} formats
 - **Annotations**: Semantic segmentation with polygons
+- **Task Type Usage**: Segmentation and Classification/Detection Tasks
 - **Annotation Software Used**: Label Studio
 - **Captured Fields**: The dataset includes imagery from 16 fields, with 14 located in the Xanthi region and 2 in the Drama region, both situated in the northern part of Greece
 - **Orthophotos**: Orthomosaic views for each subset of the dataset, generated through an image stitching process, offering a macro-perspective of the fields
