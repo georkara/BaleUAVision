@@ -156,19 +156,26 @@ This boxplot compares the median, quartiles, and outliers of annotation counts a
 
 - **Whiskers and Outliers**: Whiskers typically extend the interquartile range (IQR) beyond the box, and points outside that range are plotted as outliers. Fields with very tall whiskers or many outliers suggest a broad range of bale counts (i.e., some images have very high counts compared to most). For example, *Hay bales 3* seems to have a clear outlier. If you check the dataset, you will realize that there is one image (Hay_bales_3_00086.JPG) that captures during landing, from a non nadir angle, a large number of hay bales from current and other fields in the background. Also, *Hay bales 10* and *Hay bales 13* present similar cases with 2 images in each case at the end of the flight. On the contrary, *Hay bales 12* presents a cases where in the middle of the field the presence of hay bales is more dense leading to this result.
 
-- **Comparison Across Fields**: You can quickly see which fields generally have higher or lower bale counts. For example, if *Hay bales 14* has a box that sits high on the y-axis, that means it has higher bale counts on average or at least a large range with some very high values.
-
+- **Comparison Across Fields**: You can quickly see which fields generally have higher or lower bale counts. 
 
 
 
 ![Boxplot of Annotation Counts](boxplot.png)
 <!--  <img src="boxplot.png" alt="Boxplot of Annotation Counts" width="500">  -->
 
-### 2. Histograms per Field
-These histograms show the frequency distribution of bale counts for each hay field. They reveal the most common bale count in each field and highlight fields that have a long tail of images with exceptionally high counts.
+### 3. Histograms per Field
+These histograms show the frequency distribution of bale counts for each hay field. They reveal the most common bale count in each field and highlight fields that have a long tail of images with exceptionally high counts. In practice some fields have a unimodal distribution peaking around a small bale count of 2-5, while others peak around 10-20. Others have a long tail, indicating a few images captured large swaths\parcels of the field where more hay bales where located.
+
+- **Distribution Shape**: Each subplot shows the frequency of images for each bale-count bin. This reveals if a field has most images with just a few bales (e.g., 0–5) or if it spans a wide range (e.g., 10–20).
+
+- **Skewness**: Some fields show a heavy right tail (a few images with many bales), while others look more symmetric or have a clear single peak. Note that in *Hay bales 3*, *Hay bales 10* and *Hay bales 13* there is a gap. These are the cases that include a few images during landing at end of the flight capturing large number of hay bales from a non nadir angle.
+
+- **Comparison of Variability**: Fields with very wide histograms have more variability; fields with a narrow histogram are more uniform.
+
+- 
 ![Histograms per Field](histograms.png)
 
-### 3. Annotation Count per Image
+### 4. Annotation Count per Image
 This plot displays the annotation count for each image in sequential order. The observed wave-like (cyclical) patterns suggest that the UAV followed a systematic back-and-forth flight path—peaks occur when the drone is optimally positioned over the field, and troughs likely correspond to turning maneuvers.
 ![Annotation Count vs Image ID](annotation_counts.png)
 
