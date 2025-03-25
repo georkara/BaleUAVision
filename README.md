@@ -140,23 +140,11 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 Below is a set of main plots that illustrate the dataset characteristics from an overal oversight among with distribution and variability of hay bale annotations.
 
 ### 1. Bale Detection and Flight Altitude Overview
-This is a combined chart which serves as an overview of each hay bale field dataset by showing:
-- The total number of images per dataset.
-- The proportion of images containing hay bales.
-- The UAV flight altitude during each dataset acquisition.
+This is a combined chart which serves as an overview of each hay bale field dataset by showing: i) The total number of images per dataset; ii) The proportion of images containing hay bales; iii) The UAV flight altitude during each dataset acquisition; Overall, this figure provides a holistic view by linking image counts, bale detection rates, and flight altitude, offering insights into the operational factors that may influence hay bale detection.
   
-**Image Count and Bale Proportion:**  
-This chart displays, for each dataset (or hay field), the total number of images and the proportion of images that contain hay bales. The stacked bars visually represent how many images have detections versus those without, with the percentage indicating the overall detection rate per dataset.
+- **Image Count and Bale Proportion**: This chart displays, for each dataset (or hay field), the total number of images and the proportion of images that contain hay bales. The stacked bars visually represent how many images have annotations versus those without, with the percentage indicating the overall annotation rate per dataset.
 
-**Altitude Overlay:**  
-An overlaid line graph (using a secondary y-axis) shows the UAV's flight altitude during each dataset acquisition. This allows us to examine if flight altitude may influence the detection rate of hay bales. For example, lower altitudes might capture more detailed images (and thus, a higher proportion of bale-containing images), while higher altitudes might cover a broader area, sometimes including non-bale regions.
-
-**Key Observations:**  
-- Datasets with a high proportion (e.g., near 100%) of bale-containing images suggest that the drone was consistently focused on bale-rich areas.  
-- In contrast, datasets with a lower percentage might indicate a broader field of view or suboptimal framing, potentially caused by higher flight altitudes.  
-- Comparing the altitude trend with the detection rate can help infer whether specific flight parameters (such as altitude) affect the quality and focus of the captured images.
-
-Overall, this figure provides a holistic view by linking image counts, bale detection rates, and flight altitude, offering insights into the operational factors that may influence hay bale detection.
+- **Altitude Overlay**: An overlaid line graph (using a secondary y-axis) shows the UAV's flight altitude during each dataset acquisition. 
 
 ![Hay Bale Analysis Overview](hay_bales_analysis_overview.png)
 <!--  <img src="hay_bales_analysis_overview.png" alt="Hay Bale Analysis Overview" width="500">   -->
