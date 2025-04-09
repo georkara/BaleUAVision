@@ -4,7 +4,7 @@
   <img src="BaleUAVision%20new%20logo.png" alt="BaleUAVision Logo" width="400">
 </p>
 
-![Demo](BaleUAVision_demo_reduced.gif)
+<img src="assets/BaleUAVision_demo_reduced.gif" width="500" height="300" />
 
 
 ## Description
@@ -295,9 +295,8 @@ Below, you can see the segmentation masks for the same four cases as before:
     python inference.py --model path/to/model --image_dir path/to/images --output_dir path/to/results
     ```
 
-The dataset is structured into folders based on the image type and annotation format. Each subfolder contains the respective images and their annotations. 
-
-Please ensure to cite this dataset if used in your research or project.
+## Demo
+![Demo](BaleUAVision_demo_reduced.gif)
 
 ## Citing the Dataset
 To cite this dataset in your work, please use the following citation:
