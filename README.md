@@ -4,7 +4,9 @@
   <img src="BaleUAVision%20new%20logo.png" alt="BaleUAVision Logo" width="400">
 </p>
 
-<img src="assets/BaleUAVision_demo_reduced.gif" width="500" height="300" />
+<p align="center">
+  <img src="BaleUAVision_demo_reduced.gif" width="600" />
+</p>
 
 
 ## Description
