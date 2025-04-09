@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="BaleUAVision_demo_reduced.gif" width="600" />
+  <img src="BaleUAVision_demo_reduced.gif" width="400" />
 </p>
 
 
