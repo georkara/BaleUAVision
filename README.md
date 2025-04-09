@@ -4,7 +4,6 @@
   <img src="BaleUAVision%20new%20logo.png" alt="BaleUAVision Logo" width="400">
 </p>
 
-[▶️ Watch Demo](BaleUAVision_demo_reduced.mp4)
 
 
 ## Description
