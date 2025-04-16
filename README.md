@@ -297,8 +297,6 @@ Below, you can see the segmentation masks for the same four cases as before:
     python inference.py --model path/to/model --image_dir path/to/images --output_dir path/to/results
     ```
 
-## Demo
-![Demo](BaleUAVision_demo_reduced.gif)
 
 ## Citing the Dataset
 To cite this dataset in your work, please use the following citation:
