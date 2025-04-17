@@ -81,9 +81,9 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 - **Simulation Scenarios for Robotics**: Enabling the design and evaluation of autonomous systems for unmanned ground vehicles, focusing on tasks such as hay bale collection.
 
 
-## Files
+## Dataset Files Structure
     ├── README.md
-    ├── Hay bales Dataset
+    ├── BaleUAVision
       ├── Annotated
           ├── Hay bales 1
               ├── Hay-bales-1-YOLO  # folder which contains **YOLO** formated .txt files
@@ -113,11 +113,6 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
               ├── Hay-bales-16-CSV  
               ├── Hay-bales-16-JSON  
               └── notes
-      ├── Codes
-          ├── visualization_coco.py # produces the visualization representations for the coco formated annotations
-          ├── visualization_csv.py  # produces the visualization representations for the csv formated annotations
-          ├── visualization_json.py # produces the visualization representations for the json formated annotations
-          └── visualization_yolo.py # produces the visualization representations for the yolo formated annotations
       ├── Orthophotos
           ├── Hay bales 1 orthophoto # .tiff images for classic orthomosaic/panorama representation
           ├── Hay bales 2 orthophoto
@@ -130,6 +125,22 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
           └── Hay bales 16 # contains 119 .jpg images    
       └── Dataset Description.csv  # contains details and metadata for each Hay bale sub-set 
 
+
+## Suplementary Material Files Structure (this github project)
+    ├── README.md
+    ├── gif                     # A gif that shows an indicative example of the detection process using the YOLOv11 applied in a small subset of one out of 16 hay bales fields of BaleUAVision dataset
+    ├── images                  # Indicative images of annotations, dataset analysis and logo of BaleUAVision dataset
+    ├── src                     # Trained weights and code for train and inference using the YOLO model
+    ├── visualization codes
+      ├──visualize_dataset_analysis_final.py # produces a csv file and different figures for dataset analysis from a general perspective
+      ├── visualization_coco.py # produces the visualization representations for the coco formated annotations
+      ├── visualization_csv.py  # produces the visualization representations for the csv formated annotations
+      ├── visualization_json.py # produces the visualization representations for the json formated annotations
+      └── visualization_yolo.py # produces the visualization representations for the yolo formated annotations
+    
+
+
+    
 ### Files explanation
 - **Raw Data**: Includes all UAV-captured images in raw RGB format. Note that this folder is organized/unfolded into 16 subfolders where each one represents a flight mission (one flight mission per hay bales field). Thus, each subfolder ("Hay bales 1", "Hay bale 2", ... , "Hay bales 16") contains the raw RGB images for each UAV-captured hay field.
 
