@@ -154,7 +154,7 @@ This is a combined chart which serves as an overview of each hay bale field data
 
 - **Altitude Overlay**: An overlaid line graph (using a secondary y-axis) shows the UAV's flight altitude during each dataset acquisition. 
 
-![Hay Bale Analysis Overview](BaleUAVision/images/dataset analysis/hay_bales_analysis_overview.png)
+![Hay Bale Analysis Overview](images/dataset%20analysis/hay_bales_analysis_overview.png)
 <!--  <img src="hay_bales_analysis_overview.png" alt="Hay Bale Analysis Overview" width="500">   -->
 
 ### 2. Boxplot of Annotation Counts
@@ -168,7 +168,7 @@ This boxplot compares the median, quartiles, and outliers of annotation counts a
 
 
 
-![Boxplot of Annotation Counts](boxplot.png)
+![Boxplot of Annotation Counts](images/dataset%20analysis/boxplot.png)
 <!--  <img src="boxplot.png" alt="Boxplot of Annotation Counts" width="500">  -->
 
 ### 3. Histograms per Field
@@ -181,7 +181,7 @@ These histograms show the frequency distribution of bale counts for each hay fie
 - **Comparison of Variability**: Fields with very wide histograms have more variability; fields with a narrow histogram are more uniform.
 
 
-![Histograms per Field](histograms.png)
+![Histograms per Field](images/dataset%20analysis/histograms.png)
 
 ### 4. Annotation Count per Image
 This plot displays the annotation count for each image in sequential order. The observed wave-like (cyclical) patterns suggest that the UAV followed a systematic back-and-forth flight path—peaks occur when the drone is positioned over the field (closer to the centre of the field), and dips likely correspond to turning maneuvers.
@@ -192,7 +192,7 @@ This plot displays the annotation count for each image in sequential order. The 
 - **Outlier Frames**: Sudden spikes as presented in *Hay bales 3*, *Hay bales 10* and *Hay bales 13* indicate images that captured from a non-nadir angle capturing a large number of images during landing. Sudden drops may be partial coverage or the drone turning away from the main field as mentioned.
 
 
-![Annotation Count vs Image ID](annotation_counts.png)
+![Annotation Count vs Image ID](images/dataset%20analysis/annotation_counts.png)
 
 
 
@@ -237,27 +237,27 @@ and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales
 #### Example Output  
 Below are four **indicative images** showcasing the annotation visualization. The first pair is from Hay bales 2, while the second pair of images is from Hay bales 13 subset.
 
-![Example 1](02f18d9e-Hay_bales_2_000232_annotated.JPG)  
+![Example 1](images/annotated%20examples/02f18d9e-Hay_bales_2_000232_annotated.JPG)  
 *Figure 1: Visualized COCO annotation for image No.232 of Hay bales 2 subset.*
 
-![Example 2](2f27aebd-Hay_bales_2_000138_annotated.JPG)  
+![Example 2](images/annotated%20examples/2f27aebd-Hay_bales_2_000138_annotated.JPG)  
 *Figure 2: Another example, image No.138, of visualized annotations in COCO format from Hay bales 2 subset.*
 
-![Example 3](4d4d06a9-Hay_bales_13_000024_annotated.JPG)  
+![Example 3](images/annotated%20examples/4d4d06a9-Hay_bales_13_000024_annotated.JPG)  
 *Figure 3: Visualized COCO annotation for image No.24 of Hay bales 13 subset.*
 
-![Example 4](5cedd97d-Hay_bales_13_000039_annotated.JPG)  
+![Example 4](images/annotated%20examples/5cedd97d-Hay_bales_13_000039_annotated.JPG)  
 *Figure 4: Another example, image No.39, of visualized annotations in COCO format from Hay bales 13 subset. Note that the flight mission in this study field was conducted using 100m altitude, but the last 2 images of this Hay bales 13 subset have been captured during landing.*
 
 And don't forget about the segmentation masks that you already have within each subset folder of annotations: Annotated → Hay bales `{Study Field ID}` → Masks
 
 Below, you can see the segmentation masks for the same four cases as before:
 <p align="center">
-  <img src="02f18d9e-Hay_bales_2_000232_mask.png" width="32%">
-  <img src="2f27aebd-Hay_bales_2_000138_mask.png" width="32%">
+  <img src="images/annotated%20examples/02f18d9e-Hay_bales_2_000232_mask.png" width="32%">
+  <img src="images/annotated%20examples/2f27aebd-Hay_bales_2_000138_mask.png" width="32%">
   <br>
-  <img src="4d4d06a9-Hay_bales_13_000024_mask.png" width="32%">
-  <img src="5cedd97d-Hay_bales_13_000039_mask.png" width="32%">
+  <img src="images/annotated%20examples/4d4d06a9-Hay_bales_13_000024_mask.png" width="32%">
+  <img src="images/annotated%20examples/5cedd97d-Hay_bales_13_000039_mask.png" width="32%">
 </p>
 
 *Figure 5: Segmentation masks corresponding to the previously visualized annotated images. Upper left: Image No.232 of Hay bales 2; Upper right: Image No.138 of Hay bales 2; Lower left: Image No.24 of Hay bales 13; Lower right: Image No.39 of Hay bales 13;*
