@@ -254,7 +254,7 @@ And don't forget about the segmentation masks that you already have within each 
 
 Below, you can see the segmentation masks for the same four cases as before:
 <p align="center">
-  <img src="images/annotated%20examples/02f18d9e-Hay_bales_2_000232_mask.png" width="32%">
+  <img src="images/annotated/02f18d9e-Hay_bales_2_000232_mask.png" width="32%">
   <img src="images/annotated%20examples/2f27aebd-Hay_bales_2_000138_mask.png" width="32%">
   <br>
   <img src="images/annotated%20examples/4d4d06a9-Hay_bales_13_000024_mask.png" width="32%">
