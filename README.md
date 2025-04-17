@@ -237,7 +237,7 @@ and in this folder location "D:\BaleUAVision\Annotations Visualization\Hay bales
 #### Example Output  
 Below are four **indicative images** showcasing the annotation visualization. The first pair is from Hay bales 2, while the second pair of images is from Hay bales 13 subset.
 
-![Example 1](images/annotated examples/02f18d9e-Hay_bales_2_000232_annotated.JPG)  
+![Example 1](images/annotated%20examples/02f18d9e-Hay_bales_2_000232_annotated.jpg)  
 *Figure 1: Visualized COCO annotation for image No.232 of Hay bales 2 subset.*
 
 ![Example 2](images/annotated examples/2f27aebd-Hay_bales_2_000138_annotated.JPG)  
