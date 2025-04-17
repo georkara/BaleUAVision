@@ -81,7 +81,7 @@ The **UAV-Captured Hay Bale Dataset** can serve as a valuable resource in a vari
 - **Simulation Scenarios for Robotics**: Enabling the design and evaluation of autonomous systems for unmanned ground vehicles, focusing on tasks such as hay bale collection.
 
 
-## Dataset Files Structure
+## Dataset Files Structure (BaleUAVision Dataset in Zenodo)
     ├── README.md
     ├── BaleUAVision
       ├── Annotated
