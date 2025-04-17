@@ -154,7 +154,7 @@ This is a combined chart which serves as an overview of each hay bale field data
 
 - **Altitude Overlay**: An overlaid line graph (using a secondary y-axis) shows the UAV's flight altitude during each dataset acquisition. 
 
-![Hay Bale Analysis Overview](images/dataset analysis/hay_bales_analysis_overview.png)
+![Hay Bale Analysis Overview](BaleUAVision/images/dataset analysis/hay_bales_analysis_overview.png)
 <!--  <img src="hay_bales_analysis_overview.png" alt="Hay Bale Analysis Overview" width="500">   -->
 
 ### 2. Boxplot of Annotation Counts
