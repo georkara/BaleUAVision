@@ -220,9 +220,9 @@ Each script requires defining the correct file paths for annotations, images, an
 
 ```python
 # Provide paths to your annotation file, image directory, and output directory
-annotation_path = r'E:\drone\New\Hay bales Dataset\Annotated Data\Hay bales {Study Field ID}\Hay-bales-{Study Field ID}-COCO.json'
-image_dir = r'E:\drone\New\Hay bales Dataset\Annotated Data\Hay bales {Study Field ID}\images'
-output_dir = r'E:\drone\New\Hay bales Dataset\Annotations Visualization\Hay bales {Study Field ID}\visualized_coco'
+annotation_path = r'E:\BaleUAVision\Annotated Data\Hay bales {Study Field ID}\Hay-bales-{Study Field ID}-COCO.json'
+image_dir = r'E:\BaleUAVision\Annotated Data\Hay bales {Study Field ID}\images'
+output_dir = r'E:\BaleUAVision\Annotations Visualization\Hay bales {Study Field ID}\visualized_coco'
 ```
 
 
