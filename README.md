@@ -28,7 +28,7 @@ This dataset comprises a comprehensive collection of UAV-captured images of agri
 - **Total Area Covered**: 938,715 square meters (m²) in total
 - **Additional Information**: The number of hay bales has been manually counted for each field from the orthophoto representations, providing a reliable reference for users aiming to develop or evaluate algorithms for automated hay bale counting
 - **Where can I find the BaleUAVision Dataset?**:  https://zenodo.org/records/15304715
-
+- **Why do I need this github repository?**: Includes codes for visulization of annotations for all the provided formats, while also different analyses, scripts and already trained weights on YOLOv11 to give you a good starting point and introduce you more easily to BaleUAVision.  
 
 ## Dataset Details Table
 
