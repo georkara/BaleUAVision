@@ -298,6 +298,16 @@ Below, you can see the segmentation masks for the same four cases as before:
     ```bash
     python split_train_val.py --path bales/data --train_ids 0 1 2 3 --val_ids 14 15
     ```
+    **Note:** The `train_ids` and `val_ids` refer to the field-level dataset folder IDs:
+
+    - **Xanthi fields:** 0–13  
+    - **Drama fields:** 14–15  
+    
+    **Altitude groups:**  
+    - 50 m: {1, 2, 3, 5, 6, 8}  
+    - 80 m: {16}  
+    - 100 m: {4, 7, 9, 10, 11, 12, 13, 14, 15}
+   
     Train the model
     ```bash
     python train.py
