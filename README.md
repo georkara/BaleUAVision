@@ -326,3 +326,14 @@ Below, you can see the segmentation masks for the same four cases as before:
 To cite this dataset in your work, please use the following citation:
 
 **Karatzinis, G.D., Gkelios, S. & Kapoutsis, A.C. BaleUAVision: Hay Bales UAV Captured Dataset. Sci Data (2026). https://doi.org/10.1038/s41597-026-06622-8**
+
+alternatively using the BibTeX:
+
+@article{karatzinis2026baleuavision,
+
+  title={BaleUAVision: Hay Bales UAV Captured Dataset},  
+  author={Karatzinis, Georgios D and Gkelios, Socratis and Kapoutsis, Athanasios Ch},  
+  journal={Scientific Data},  
+  year={2026},  
+  publisher={Nature Publishing Group UK London}  
+}
